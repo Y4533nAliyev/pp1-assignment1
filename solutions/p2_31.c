@@ -1,18 +1,9 @@
 #include <stdio.h>
 
 int main(){
-  printf("number\n");
+  printf("number\tsquare\tcube\n");
   for(int num = 0; num < 11; num++){
-    printf("%d\n", num);
+    printf("%d\t%d\t%d\n", num, num*num, num*num*num);
   }
-  printf("square\n");
-  for(int num = 0; num<11; num++){
-    printf("%d\n", num*num);
-  }
-  printf("cube\n");
-  for(int num = 0; num<11; num++){
-    printf("%d\n", num*num*num);
-  }
-
   return 0;
 }

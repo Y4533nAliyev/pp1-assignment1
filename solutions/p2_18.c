@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int main(){
-  double highestRain = 704; // highest rainfall in the US(inches)
+  double highestRain = 0; // highest rainfall in the US(inches)
   double currentRain = 0;
-
-  printf("Write the rainfall for this year in the US: ");
+  
+  printf("Write the highest ever rainfall in the us: ");
+  scanf("%lf", &highestRain);
+  
+  printf("Write the rainfall for this year in the us: ");
   scanf("%lf", &currentRain);
 
   if(currentRain > highestRain){
